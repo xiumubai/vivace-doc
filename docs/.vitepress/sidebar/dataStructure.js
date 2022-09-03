@@ -2,7 +2,7 @@
  * @Author: 朽木白
  * @Date: 2022-09-03 13:59:07
  * @LastEditors: 1547702880@qq.com
- * @LastEditTime: 2022-09-03 16:50:12
+ * @LastEditTime: 2022-09-03 17:01:44
  * @Description:
  */
 export default function sidebarDataStructure() {
@@ -18,6 +18,7 @@ export default function sidebarDataStructure() {
     },
     {
       text: '字符串',
+      collapsible: true,
       items: [
         {
           text: '表示数值的字符串',
@@ -47,6 +48,7 @@ export default function sidebarDataStructure() {
     },
     {
       text: '数组',
+      collapsible: true,
       items: [
         {
           text: '概览',
@@ -118,6 +120,7 @@ export default function sidebarDataStructure() {
     },
     {
       text: '栈和队列',
+      collapsible: true,
       items: [
         {
           text: '概览',
@@ -138,6 +141,52 @@ export default function sidebarDataStructure() {
         {
           text: '滑动窗口的最大值',
           link: '/dataStructure/stack-queue/滑动窗口的最大值',
+        },
+      ],
+    },
+    {
+      text: '链表',
+      collapsible: true,
+      items: [
+        {
+          text: '概览',
+          link: '/dataStructure/linked-list/概览',
+        },
+        {
+          text: '从尾到头打印链表',
+          link: '/dataStructure/linked-list/从尾到头打印链表',
+        },
+        {
+          text: '删除链表中的节点or重复的节点',
+          link: '/dataStructure/linked-list/删除链表中的节点or重复的节点',
+        },
+        {
+          text: '反转链表',
+          link: '/dataStructure/linked-list/反转链表',
+        },
+        {
+          text: '复杂链表的复制',
+          link: '/dataStructure/linked-list/复杂链表的复制',
+        },
+        {
+          text: '两个链表的第一个公共节点',
+          link: '/dataStructure/linked-list/两个链表的第一个公共节点',
+        },
+        {
+          text: '链表倒数第k个节点',
+          link: '/dataStructure/linked-list/链表倒数第k个节点',
+        },
+        {
+          text: '链表中环的入口节点',
+          link: '/dataStructure/linked-list/链表中环的入口节点',
+        },
+        {
+          text: '圈圈中最后剩下的数字',
+          link: '/dataStructure/linked-list/圈圈中最后剩下的数字',
+        },
+        {
+          text: '合并两个排序的链表',
+          link: '/dataStructure/linked-list/合并两个排序的链表',
         },
       ],
     },
