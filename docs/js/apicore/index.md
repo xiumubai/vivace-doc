@@ -8,7 +8,7 @@
 - [06-promise 原理](./06-promise.md)
 - [07-拷贝](./07-copy.md)
 - [08-instanceof 实现](./08-instanceof.md)
-- [09-call&apply&bind 实现](./09-call%26apply%26bind.md)
+- [09-call&apply&bind 实现](./09-call-apply-bind.md)
 - [10-es5 继承](./10-ES5-extend.md)
 - [11-JSONP 实现](./11-JSONP.md)
 - [12-数组乱序](./12-upset-array.md)

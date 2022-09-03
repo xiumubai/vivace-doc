@@ -51,7 +51,7 @@ export default function sidebarJs() {
         },
         {
           text: '09:call&apply&bind',
-          link: '/js/apicore/09-call&apply&bind',
+          link: '/js/apicore/09-call-apply-bind',
         },
         {
           text: '10:ES5-extend',
