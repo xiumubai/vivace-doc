@@ -2,7 +2,7 @@
  * @Author: 朽木白
  * @Date: 2022-09-03 01:09:44
  * @LastEditors: 1547702880@qq.com
- * @LastEditTime: 2022-09-03 10:16:53
+ * @LastEditTime: 2022-09-03 10:27:20
  * @Description:
  */
 module.exports = {
@@ -150,6 +150,7 @@ function siderbarVim() {
     },
     {
       text: 'VScode',
+      collapsible: true,
       items: [
         {
           text: 'Day 19：文件与窗口基础操作',
@@ -203,6 +204,7 @@ function siderbarVim() {
     },
     {
       text: 'Chrome',
+      collapsible: true,
       items: [
         {
           text: 'Day 31：浏览器中的 Vim',
@@ -236,6 +238,7 @@ function siderbarVim() {
     },
     {
       text: 'Terminal',
+      collapsible: true,
       items: [
         {
           text: 'Day 38：初识命令行界面操作',
@@ -269,6 +272,7 @@ function siderbarVim() {
     },
     {
       text: 'Mac',
+      collapsible: true,
       items: [
         {
           text: 'Day 45：Manico',
