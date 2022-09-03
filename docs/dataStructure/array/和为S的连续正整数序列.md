@@ -1,14 +1,16 @@
----
-{
-  "title": "和为S的连续正整数序列",
-}
----
+<!--
+ * @Author: 朽木白
+ * @Date: 2022-09-03 15:43:47
+ * @LastEditors: 1547702880@qq.com
+ * @LastEditTime: 2022-09-03 17:16:26
+ * @Description:
+-->
 
 ## 题目
 
-输入一个正数`S`，打印出所有和为S的连续正数序列。
+输入一个正数`S`，打印出所有和为 S 的连续正数序列。
 
-例如：输入`15`，有序`1+2+3+4+5` = `4+5+6` = `7+8` = `15` 所以打印出3个连续序列`1-5`，`5-6`和`7-8`。
+例如：输入`15`，有序`1+2+3+4+5` = `4+5+6` = `7+8` = `15` 所以打印出 3 个连续序列`1-5`，`5-6`和`7-8`。
 
 ## 思路
 
@@ -23,28 +25,27 @@
 ## 代码
 
 ```js
-    function FindContinuousSequence(sum) {
-      const result = [];
-      const child = [1, 2];
-      let big = 2;
-      let small = 1;
-      let currentSum = 3;
-      while (big < sum) {
-        while (currentSum < sum && big < sum) {
-          child.push(++big);
-          currentSum += big;
-        }
-        while (currentSum > sum && small < big) {
-          child.shift();
-          currentSum -= small++;
-        }
-        if (currentSum === sum && child.length > 1) {
-          result.push(child.slice());
-          child.push(++big);
-          currentSum += big;
-        }
-      }
-      return result;
+function FindContinuousSequence(sum) {
+  const result = [];
+  const child = [1, 2];
+  let big = 2;
+  let small = 1;
+  let currentSum = 3;
+  while (big < sum) {
+    while (currentSum < sum && big < sum) {
+      child.push(++big);
+      currentSum += big;
     }
+    while (currentSum > sum && small < big) {
+      child.shift();
+      currentSum -= small++;
+    }
+    if (currentSum === sum && child.length > 1) {
+      result.push(child.slice());
+      child.push(++big);
+      currentSum += big;
+    }
+  }
+  return result;
+}
 ```
-
