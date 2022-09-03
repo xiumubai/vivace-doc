@@ -2,7 +2,7 @@
  * @Author: 朽木白
  * @Date: 2022-09-03 13:59:07
  * @LastEditors: 1547702880@qq.com
- * @LastEditTime: 2022-09-03 16:37:17
+ * @LastEditTime: 2022-09-03 16:50:12
  * @Description:
  */
 export default function sidebarDataStructure() {
@@ -113,6 +113,31 @@ export default function sidebarDataStructure() {
         {
           text: '在排序数组中查找数字',
           link: '/dataStructure/array/在排序数组中查找数字',
+        },
+      ],
+    },
+    {
+      text: '栈和队列',
+      items: [
+        {
+          text: '概览',
+          link: '/dataStructure/stack-queue/概览',
+        },
+        {
+          text: '用两个栈实现队列',
+          link: '/dataStructure/stack-queue/用两个栈实现队列',
+        },
+        {
+          text: '包含min函数的栈',
+          link: '/dataStructure/stack-queue/包含min函数的栈',
+        },
+        {
+          text: '栈的压入弹出序列',
+          link: '/dataStructure/stack-queue/栈的压入弹出序列',
+        },
+        {
+          text: '滑动窗口的最大值',
+          link: '/dataStructure/stack-queue/滑动窗口的最大值',
         },
       ],
     },
