@@ -2,7 +2,7 @@
  * @Author: 朽木白
  * @Date: 2022-09-03 13:59:07
  * @LastEditors: 1547702880@qq.com
- * @LastEditTime: 2022-09-03 17:01:44
+ * @LastEditTime: 2022-09-03 17:20:59
  * @Description:
  */
 export default function sidebarDataStructure() {
@@ -50,10 +50,6 @@ export default function sidebarDataStructure() {
       text: '数组',
       collapsible: true,
       items: [
-        {
-          text: '概览',
-          link: '/dataStructure/array/概览',
-        },
         {
           text: '把数组排成最小的数',
           link: '/dataStructure/array/把数组排成最小的数',
@@ -123,10 +119,6 @@ export default function sidebarDataStructure() {
       collapsible: true,
       items: [
         {
-          text: '概览',
-          link: '/dataStructure/stack-queue/概览',
-        },
-        {
           text: '用两个栈实现队列',
           link: '/dataStructure/stack-queue/用两个栈实现队列',
         },
@@ -148,10 +140,6 @@ export default function sidebarDataStructure() {
       text: '链表',
       collapsible: true,
       items: [
-        {
-          text: '概览',
-          link: '/dataStructure/linked-list/概览',
-        },
         {
           text: '从尾到头打印链表',
           link: '/dataStructure/linked-list/从尾到头打印链表',
