@@ -2,12 +2,14 @@
  * @Author: 朽木白
  * @Date: 2022-09-03 01:09:44
  * @LastEditors: 1547702880@qq.com
- * @LastEditTime: 2022-09-03 15:27:39
+ * @LastEditTime: 2022-09-03 16:08:30
  * @Description:
  */
 
 import siderbarVim from './sidebar/vim';
 import sidebarJs from './sidebar/javaScript';
+import sidebarDataStructure from './sidebar/dataStructure';
+import sidebarAlgorithm from './sidebar/algorithm';
 
 module.exports = {
   title: 'vivace',
@@ -48,23 +50,25 @@ module.exports = {
         link: '/js/',
         activeMatch: '/js/',
       },
-      // {
-      //   text: '数据结构&算法',
-      //   items: [
-      //     {
-      //       text: 'Algorithm',
-      //       link: '/algorithm/',
-      //     },
-      //     {
-      //       text: 'DataStructure',
-      //       link: '/dataStructure/',
-      //     },
-      //   ],
-      // },
+      {
+        text: '数据结构&算法',
+        items: [
+          {
+            text: 'DataStructure',
+            link: '/dataStructure/',
+          },
+          {
+            text: 'Algorithm',
+            link: '/algorithm/',
+          },
+        ],
+      },
     ],
     sidebar: {
       '/vim/': siderbarVim(),
       '/js/': sidebarJs(),
+      '/dataStructure/': sidebarDataStructure(),
+      '/algorithm/': sidebarAlgorithm(),
     },
   },
 };
