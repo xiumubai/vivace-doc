@@ -10,7 +10,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /vim/index.md
+      link: /guide/
     - theme: alt
       text: View on GitHub
       link: https://github.com/xiumubai

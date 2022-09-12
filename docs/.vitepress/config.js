@@ -1,12 +1,12 @@
 /*
  * @Author: 朽木白
  * @Date: 2022-09-03 01:09:44
- * @LastEditors: 1547702880@qq.com
- * @LastEditTime: 2022-09-03 16:08:30
+ * @LastEditors: xxx@xxx.com
+ * @LastEditTime: 2022-09-12 17:44:45
  * @Description:
  */
 
-import siderbarVim from './sidebar/vim';
+import siderbarGuide from './sidebar';
 import sidebarJs from './sidebar/javaScript';
 import sidebarDataStructure from './sidebar/dataStructure';
 import sidebarAlgorithm from './sidebar/algorithm';
@@ -40,11 +40,7 @@ module.exports = {
       copyright: 'Copyright © 2022-present xiumubai',
     },
     nav: [
-      {
-        text: 'Vim',
-        link: '/vim/',
-        activeMatch: '/vim/',
-      },
+
       {
         text: 'JavaScript',
         link: '/js/',
@@ -63,9 +59,13 @@ module.exports = {
           },
         ],
       },
+      {
+        text: 'Vim',
+        link: 'https://vim-doc.vercel.app/'
+      },
     ],
     sidebar: {
-      '/vim/': siderbarVim(),
+      '/guid/': siderbarGuide(),
       '/js/': sidebarJs(),
       '/dataStructure/': sidebarDataStructure(),
       '/algorithm/': sidebarAlgorithm(),
