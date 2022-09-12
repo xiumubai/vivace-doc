@@ -2,14 +2,12 @@
  * @Author: 朽木白
  * @Date: 2022-09-03 01:09:44
  * @LastEditors: xxx@xxx.com
- * @LastEditTime: 2022-09-12 17:44:45
+ * @LastEditTime: 2022-09-12 21:29:04
  * @Description:
  */
 
 import siderbarGuide from './sidebar';
 import sidebarJs from './sidebar/javaScript';
-import sidebarDataStructure from './sidebar/dataStructure';
-import sidebarAlgorithm from './sidebar/algorithm';
 
 module.exports = {
   title: 'vivace',
@@ -47,17 +45,8 @@ module.exports = {
         activeMatch: '/js/',
       },
       {
-        text: '数据结构&算法',
-        items: [
-          {
-            text: 'DataStructure',
-            link: '/dataStructure/',
-          },
-          {
-            text: 'Algorithm',
-            link: '/algorithm/',
-          },
-        ],
+        text: '算法&设计模式',
+        link: 'https://algorithm-doc.vercel.app/'
       },
       {
         text: 'Vim',
@@ -66,9 +55,7 @@ module.exports = {
     ],
     sidebar: {
       '/guid/': siderbarGuide(),
-      '/js/': sidebarJs(),
-      '/dataStructure/': sidebarDataStructure(),
-      '/algorithm/': sidebarAlgorithm(),
+      '/js/': sidebarJs()
     },
   },
 };
